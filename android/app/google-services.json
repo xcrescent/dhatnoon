@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "89298882636",
+    "project_id": "dhatnoon-6caaa",
+    "storage_bucket": "dhatnoon-6caaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89298882636:android:a394af1ad8717ca34ae4e9",
+        "android_client_info": {
+          "package_name": "com.aeronex.dhatnoon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdcHeNOcWNBPIYjysEUaSQDLyTU7NQOg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
