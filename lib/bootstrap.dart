@@ -43,7 +43,7 @@ Future<void> bootstrap(
   FlutterError.onError = (details) {
     log(details.exceptionAsString(), stackTrace: details.stack);
   };
-  WidgetsFlutterBinding.ensureInitialized();
+  
   unawaited(init());
   await Hive.initFlutter();
   final appBox = await Hive.openBox('appBox');

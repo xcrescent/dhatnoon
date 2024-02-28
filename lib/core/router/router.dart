@@ -6,10 +6,19 @@ import 'package:dhatnoon/core/router/router.gr.dart';
 class AppRouter extends $AppRouter {
   @override
   late final List<AutoRoute> routes = [
+    // AutoRoute(
+    //   page: CounterRoute.page,
+    //   path: '/',
+    //   initial: true,
+    // ),
     AutoRoute(
-      page: CounterRoute.page,
+      page: HomeRoute.page,
       path: '/',
       initial: true,
+    ),
+    AutoRoute(
+      page: NotificationsRoute.page,
+      path: '/notifications',
     ),
   ];
 }
